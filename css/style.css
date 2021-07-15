@@ -7,6 +7,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    width: 1440px;
 }
 
 /*-------------
@@ -15,11 +16,8 @@ header styles
 header {
     display: flex;
     background-color: #2D25A0;
-    position: absolute;
     width: 1440px;
     height: 677px;
-    left: 0px;
-    top: 0px;
 }
 
 .football-header p {
@@ -35,7 +33,7 @@ a.watch-button {
     text-decoration: none;
     color: white;
     position: absolute;
-    margin-top: 0;
+    margin-top: 27px;
     margin-left: 153px;
     padding: 10px 24px;
     text-align: center;
@@ -51,4 +49,39 @@ a.watch-button {
     position: absolute;
     left: 743px;
 
+}
+
+/*----------------
+ players arena styles 
+ ------------------*/
+.players-arena {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+.player {
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+
+}
+
+.player .thumbnail {
+    width: 100%;
+}
+
+.player .player-name {
+    font-size: 28px;
+}
+
+.player .player-detail {
+    color: #6C6C6C;
 }
