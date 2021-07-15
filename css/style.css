@@ -194,7 +194,7 @@ footer {
 }
 
 .footer-container {
-    width: 1000px;
+    width: 1024px;
 }
 
 .logo-container {
@@ -241,3 +241,8 @@ footer .logo img {
     margin-top: 100px;
     text-align: center;
 }
+
+
+/* media queries  */
+
+/* mobile devices */
