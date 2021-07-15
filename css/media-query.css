@@ -201,4 +201,29 @@
         height: 527px;
         margin: 29px 16px;
     }
+
+    .club-partners {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    footer .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .logo img {
+        margin-top: 30px;
+        width: 80%;
+    }
+
+    .legal-info {
+        text-align: center;
+    }
+
+    .copyright {
+        margin-bottom: 100px;
+    }
 }
