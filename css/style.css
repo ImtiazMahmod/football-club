@@ -7,7 +7,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    width: 1440px;
+
 }
 
 /*-------------
@@ -29,21 +29,27 @@ header .navigation {
     align-items: center;
 }
 
-.navigation a {
+.navigation .nav-links a {
     text-decoration: none;
     color: white;
     margin-right: 36px;
 }
 
-.navigation a:hover {
-    color: li;
+.navigation .nav-links a:hover {
+    color: lightgray;
 }
 
 .button-link {
     color: white;
     padding: 10px 24px;
-    background: #E02C6D;
+    background: orangered;
     text-decoration: none;
+    border-radius: 25px;
+}
+
+.button-link:hover {
+    background-color: tomato;
+
 }
 
 .cupa-america {
@@ -70,6 +76,16 @@ a.watch-button {
     position: absolute;
     left: 743px;
 
+}
+
+.banner-player:hover .player-hit {
+    transform: rotate(10deg);
+    transition: transform .3s ease-in;
+}
+
+.banner-player:hover .player-hit-ball {
+    transform: translate(-390px, -120px) rotate(40deg);
+    transition: transform 1s ease-out .3s;
 }
 
 /*----------------
@@ -135,12 +151,57 @@ a.watch-button {
     margin-left: 66px;
 }
 
+/* partners styles */
+
+
+.club-partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+
+.club-partners .partner-title {
+    color: white;
+    background-color: #2D25A0;
+    padding: 10px 24px;
+    border-radius: 25px;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.partner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    grid-column-gap: 30px;
+}
+
 /* footer styles */
 footer {
     margin-top: 170px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+}
+
+.footer-container {
+    width: 1000px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 footer .logo img {
@@ -159,12 +220,24 @@ footer .logo img {
 }
 
 .fab:hover {
-    color: lightgray;
-    background-color: gray;
+    color: black;
+
+}
+
+.legal-info hr {
+    width: 100%;
+    border-bottom: 1px solid #81204c;
+}
+
+.legal-info a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
 
 .copyright {
     font-size: 18px;
     font-weight: 400;
-    margin-top: 20px;
+    margin-top: 100px;
+    text-align: center;
 }
