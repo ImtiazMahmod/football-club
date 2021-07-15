@@ -1,0 +1,204 @@
+/* media queries  */
+
+/* mobile devices */
+
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+        margin: 47px 15px 0;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 695px;
+
+    }
+
+    header .navigation {
+        display: none;
+    }
+
+
+    header .cupa-america {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .football-header p {
+        font-weight: 700;
+        font-size: 36px;
+        color: white;
+        position: absolute;
+        left: 16px;
+        top: 112px;
+        margin: 0;
+    }
+
+    .banner-player img {
+        position: absolute;
+        width: 329px;
+        height: 259.17px;
+        left: 15px;
+        top: 400px;
+    }
+
+    a.watch-button {
+        position: absolute;
+        margin-top: -30px;
+        margin-left: 19px;
+    }
+
+    .players,
+    .partner {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player,
+    .highlights,
+    .partners,
+    footer,
+    .logo-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .highlights {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .highlights-detail {
+        width: 90%;
+        margin: 16px;
+    }
+
+    .highlights-detail h1 {
+        font-size: 30px;
+    }
+
+    .highlights-match img {
+        width: 328px;
+        height: 248px;
+        margin: 29px 16px;
+    }
+
+    .club-partners {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    footer .logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .logo img {
+        margin-top: 30px;
+        width: 80%;
+    }
+
+    .legal-info {
+        text-align: center;
+    }
+
+    .copyright {
+        margin-bottom: 100px;
+    }
+}
+
+/*--------------
+ ipad devices
+ --------------- */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container {
+        width: 100%;
+        margin: 47px 15px 0;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        height: 555px;
+
+    }
+
+
+    header .navigation {
+        display: none;
+    }
+
+    header .cupa-america {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .football-header p {
+        font-weight: 700;
+        font-size: 36px;
+        color: white;
+        position: absolute;
+        left: 16px;
+        top: 112px;
+        margin: 0;
+    }
+
+    .banner-player img {
+        position: absolute;
+        width: 456.01px;
+        height: 338px;
+        left: 270px;
+        top: 100px;
+    }
+
+    a.watch-button {
+        position: absolute;
+        margin-left: 19px;
+    }
+
+    .players,
+    .partner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .player,
+    .highlights,
+    .partners,
+    footer,
+    .logo-container {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .highlights {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .highlights-detail {
+        width: 80%;
+        margin: 16px;
+    }
+
+    .highlights-detail h1 {
+        font-size: 46px;
+    }
+
+    .highlights-match img {
+        width: 750px;
+        height: 527px;
+        margin: 29px 16px;
+    }
+}
