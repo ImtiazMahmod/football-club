@@ -1,0 +1,54 @@
+/*-------------
+#font styles
+--------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* root styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/*-------------
+header styles
+---------------*/
+header {
+    display: flex;
+    background-color: #2D25A0;
+    position: absolute;
+    width: 1440px;
+    height: 677px;
+    left: 0px;
+    top: 0px;
+}
+
+.football-header p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    color: white;
+    margin: 160px 0 0 156px;
+}
+
+a.watch-button {
+    font-size: 16px;
+    background-color: #E02C6D;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 153px;
+    padding: 10px 24px;
+    text-align: center;
+
+
+
+}
+
+.banner-player img {
+    Width: 556.01px;
+    Height: 438px;
+    top: 153px;
+    position: absolute;
+    left: 743px;
+
+}
